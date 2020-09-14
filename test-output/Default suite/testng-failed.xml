@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="web.tests.RegisterTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="TestRegister"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- web.tests.RegisterTest -->
+      <class name="web.tests.LoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="testLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- web.tests.LoginTest -->
+      <class name="web.tests.ShopTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testWishlist"/>
+        </methods>
+      </class> <!-- web.tests.ShopTest -->
+      <class name="web.tests.LogoutTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testMyAccountLogout"/>
+          <include name="testMenuLogout"/>
+          <include name="testDashboardLogout"/>
+        </methods>
+      </class> <!-- web.tests.LogoutTest -->
+      <class name="web.tests.MyAccountTest">
+        <methods>
+          <include name="testAddPaymentMethod"/>
+        </methods>
+      </class> <!-- web.tests.MyAccountTest -->
+      <class name="web.tests.ContactFormTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="TestContactForm"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="TestSupportForm"/>
+        </methods>
+      </class> <!-- web.tests.ContactFormTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

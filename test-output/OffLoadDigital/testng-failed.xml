@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OffLoadDigital]">
+  <test thread-count="5" name="OffLoadDigital Test(failed)">
+    <classes>
+      <class name="web.tests.RegisterTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="TestRegister"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- web.tests.RegisterTest -->
+    </classes>
+  </test> <!-- OffLoadDigital Test(failed) -->
+</suite> <!-- Failed suite [OffLoadDigital] -->

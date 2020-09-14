@@ -1,0 +1,13 @@
+[INFO ] 2020-09-08 16:38:48.101 [main] BaseTest - Clicked on Login Option
+[INFO ] 2020-09-08 16:38:49.794 [main] BaseTest - Given Registered User Name
+[INFO ] 2020-09-08 16:38:50.356 [main] BaseTest - Given Password
+[INFO ] 2020-09-08 16:39:00.995 [main] BaseTest - Clicked on Login Button
+[INFO ] 2020-09-08 16:39:01.785 [main] BaseTest - Clicked on Hamburger Menu
+[INFO ] 2020-09-08 16:39:11.708 [main] BaseTest - Clicked on Profile Name
+[INFO ] 2020-09-08 16:44:44.262 [main] BaseTest - Browser Closed Successfully
+[INFO ] 2020-09-08 16:56:44.894 [main] BaseTest - Window Maximized Successfully
+[INFO ] 2020-09-08 16:57:32.652 [main] BaseTest - OffloadDigital Website Opended Successfully
+[INFO ] 2020-09-08 16:57:34.502 [main] BaseTest - Clicked on Hamburger Menu
+[INFO ] 2020-09-08 17:02:58.087 [main] BaseTest - Window Maximized Successfully
+[INFO ] 2020-09-08 17:03:27.039 [main] BaseTest - OffloadDigital Website Opended Successfully
+[INFO ] 2020-09-08 17:03:28.288 [main] BaseTest - Clicked on Hamburger Menu
