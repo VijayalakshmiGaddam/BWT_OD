@@ -1,108 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48220" started-at="2020-09-14T11:47:22Z" finished-at="2020-09-14T11:48:10Z">
+  <suite name="Suite" duration-ms="35658" started-at="2020-09-18T10:59:27Z" finished-at="2020-09-18T11:00:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="48220" started-at="2020-09-14T11:47:22Z" finished-at="2020-09-14T11:48:10Z">
+    <test name="Test" duration-ms="35658" started-at="2020-09-18T10:59:27Z" finished-at="2020-09-18T11:00:03Z">
       <class name="web.tests.LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:web.tests.LoginTest@6892b3b6]" name="beforeSuite" is-config="true" duration-ms="54352" started-at="2020-09-14T17:16:28Z" finished-at="2020-09-14T17:17:22Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:web.tests.LoginTest@11392934]" name="beforeSuite" is-config="true" duration-ms="49683" started-at="2020-09-18T16:28:37Z" finished-at="2020-09-18T16:29:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:web.tests.LoginTest@6892b3b6]" name="testLogin" duration-ms="33879" started-at="2020-09-14T17:17:22Z" finished-at="2020-09-14T17:17:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:web.tests.LoginTest@6892b3b6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-14T17:17:22Z" finished-at="2020-09-14T17:17:22Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:web.tests.LoginTest@11392934]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-18T16:29:27Z" finished-at="2020-09-18T16:29:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:web.tests.LoginTest@6892b3b6]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-14T17:17:56Z" finished-at="2020-09-14T17:17:56Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:web.tests.LoginTest@11392934]" name="testLogin" duration-ms="35532" started-at="2020-09-18T16:29:27Z" finished-at="2020-09-18T16:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:web.tests.LoginTest@11392934]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-18T16:30:03Z" finished-at="2020-09-18T16:30:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:web.tests.LoginTest@6892b3b6]" name="afterSuite" is-config="true" duration-ms="3211" started-at="2020-09-14T17:18:10Z" finished-at="2020-09-14T17:18:13Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:web.tests.LoginTest@11392934]" name="afterSuite" is-config="true" duration-ms="3194" started-at="2020-09-18T16:30:03Z" finished-at="2020-09-18T16:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- web.tests.LoginTest -->
-      <class name="web.tests.ShopTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:web.tests.ShopTest@6e6f2380]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-14T17:17:56Z" finished-at="2020-09-14T17:17:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="testCreditPayment()[pri:0, instance:web.tests.ShopTest@6e6f2380]" name="testCreditPayment" duration-ms="14067" started-at="2020-09-14T17:17:56Z" finished-at="2020-09-14T17:18:10Z">
-          <exception class="org.openqa.selenium.JavascriptException">
-            <message>
-              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'LENOVO-PC', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5be6b075b00c86a352976fdfa5cb3de2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'LENOVO-PC', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5be6b075b00c86a352976fdfa5cb3de2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at od.utilities.Web.DoMouseOver_And_Click(Web.java:224)
-	at web.pages.ShopPage.HoverOn_ShowDetails_Button(ShopPage.java:26)
-	at web.tests.ShopTest.testCreditPayment(ShopTest.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.JavascriptException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreditPayment -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:web.tests.ShopTest@6e6f2380]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-14T17:18:10Z" finished-at="2020-09-14T17:18:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- web.tests.ShopTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
